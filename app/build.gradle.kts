@@ -57,4 +57,5 @@ dependencies {
     implementation ("androidx.navigation:navigation-fragment-ktx:2.7.6")
     implementation ("androidx.navigation:navigation-ui-ktx:2.7.6")
     implementation ("pl.droidsonroids.gif:android-gif-drawable:1.2.28")
+    implementation ("de.hdodenhof:circleimageview:3.1.0")
 }
