@@ -26,7 +26,6 @@ class SplashActivity : AppCompatActivity() {
     private val REQUEST = 112
     var ret = false
     private lateinit var locationManager: LocationManager
-//    lateinit var splashViewModel: SplashViewModel
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -45,24 +44,14 @@ class SplashActivity : AppCompatActivity() {
         )
 
         if (!hasPermissions(this, permissions)) {
-            ActivityCompat.requestPermissions(
-                this,
-                permissions,
-                REQUEST
-            )
+            ActivityCompat.requestPermissions(this, permissions,  REQUEST)
         } else {
             callNextActivity()
         }
-
-
         this.window.setFlags(
             WindowManager.LayoutParams.FLAG_FULLSCREEN,
             WindowManager.LayoutParams.FLAG_FULLSCREEN
         )
-//        splashViewModel = ViewModelProvider(
-//            this,
-//            SplashViewModelFactory(this@Splash)
-//        )[SplashViewModel::class.java]
     }
 
     override fun onRequestPermissionsResult(

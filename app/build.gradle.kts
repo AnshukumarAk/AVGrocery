@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId = "com.anshu.fooddeliver"
-        minSdk = 26
+        minSdk = 24
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -36,9 +36,6 @@ android {
     buildFeatures {
         //noinspection DataBindingWithoutKapt
         dataBinding =true
-
-    }
-    buildFeatures{
         viewBinding =true
     }
 }
@@ -55,17 +52,10 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
     // Lottie dependency
     implementation ("com.airbnb.android:lottie:6.0.0")
-
+//    implementation ("com.github.ybq:Android-SpinKit:1.4.0")
+    // Kotlin
+    implementation ("androidx.navigation:navigation-fragment-ktx:2.7.6")
+    implementation ("androidx.navigation:navigation-ui-ktx:2.7.6")
     implementation ("pl.droidsonroids.gif:android-gif-drawable:1.2.28")
-
-
-    ////// Circle ImageView
     implementation ("de.hdodenhof:circleimageview:3.1.0")
-
-    //    ///// Progress Dialogue
-    implementation ("com.github.NabeelKhanNK:Progress-Dialog-Library:1.1")
-
-    implementation ("com.github.ibrahimsn98:NiceBottomBar:2.2")
-
-
 }
