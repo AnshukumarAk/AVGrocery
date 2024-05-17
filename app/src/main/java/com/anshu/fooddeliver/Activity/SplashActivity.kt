@@ -42,7 +42,6 @@ class SplashActivity : AppCompatActivity() {
             Manifest.permission.ACCESS_COARSE_LOCATION,
             Manifest.permission.ACCESS_FINE_LOCATION,
             Manifest.permission.CAMERA,
-            Manifest.permission.POST_NOTIFICATIONS
         )
 
         if (!hasPermissions(this, permissions)) {

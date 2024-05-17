@@ -15,35 +15,36 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
-    lateinit var bottomNav : BottomNavigationView
+//    lateinit var bottomNav : BottomNavigationView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         loadFragment(HomeFragment())
-        bottomNav = findViewById(R.id.btm_nav) as BottomNavigationView
-        bottomNav.setOnItemSelectedListener {
-            when (it.itemId) {
-                R.id.homeFragment -> {
-                    loadFragment(HomeFragment())
-                    true
-                }
 
-                R.id.favoritesFragment -> {
-                    loadFragment(FavoritesFragment())
-                    true
-                }
-
-                R.id.categoriesFragment -> {
-                    loadFragment(CategoryFragment())
-                    true
-                }
-                else -> false
-            }
-
-
-        }
+//        bottomNav = findViewById(R.id.btm_nav) as BottomNavigationView
+//        bottomNav.setOnItemSelectedListener {
+//            when (it.itemId) {
+//                R.id.homeFragment -> {
+//                    loadFragment(HomeFragment())
+//                    true
+//                }
+//
+//                R.id.favoritesFragment -> {
+//                    loadFragment(FavoritesFragment())
+//                    true
+//                }
+//
+//                R.id.categoriesFragment -> {
+//                    loadFragment(CategoryFragment())
+//                    true
+//                }
+//                else -> false
+//            }
+//
+//
+//        }
     }
     private fun loadFragment(fragment: Fragment) {
         supportFragmentManager.beginTransaction()

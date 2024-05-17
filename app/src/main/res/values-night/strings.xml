@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="home_fragment">Home Fragment</string>
+    <string name="category_fragment">Category Fragment</string>
+    <string name="favourite_fragment">Favourite Fragment</string>
 </resources>

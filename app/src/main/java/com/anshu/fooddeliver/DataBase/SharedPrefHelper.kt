@@ -5,7 +5,7 @@ import android.content.SharedPreferences
 
 class SharedPrefHelper {
     companion object {
-        private val PREF_FILE = "food_deliver.db"
+        private const val PREF_FILE = "food_deliver.db"
     }
     private var settings: SharedPreferences? = null
     private var editor: SharedPreferences.Editor? = null
