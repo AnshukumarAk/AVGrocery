@@ -3,4 +3,6 @@
     <string name="home_fragment">Home Fragment</string>
     <string name="category_fragment">Category Fragment</string>
     <string name="favourite_fragment">Favourite Fragment</string>
+    <string name="recipes">Recipes</string>
+    <string name="choose_your_language">Choose Your Language</string>
 </resources>

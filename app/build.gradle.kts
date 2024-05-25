@@ -58,4 +58,19 @@ dependencies {
     implementation ("androidx.navigation:navigation-ui-ktx:2.7.6")
     implementation ("pl.droidsonroids.gif:android-gif-drawable:1.2.28")
     implementation ("de.hdodenhof:circleimageview:3.1.0")
+
+    implementation ("com.github.ibrahimsn98:NiceBottomBar:2.2")
+
+    //noinspection GradleCompatible
+    implementation ("com.android.support:design:29.0.0")
+
+    // dependency for slider view
+    implementation ("com.github.smarteist:autoimageslider:1.3.9")
+
+// dependency for loading image from url
+    implementation ("com.github.bumptech.glide:glide:4.11.0")
+
+    ///------------LotiAnimetion------------//////////
+    implementation ("com.github.ybq:Android-SpinKit:1.4.0")
+
 }

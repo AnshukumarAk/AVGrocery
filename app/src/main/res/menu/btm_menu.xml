@@ -18,4 +18,9 @@
         android:icon="@drawable/baseline_category_on_personal_24"
         android:title="Categoury" />
 
+    <item
+        android:id="@+id/nav_recipe"
+        android:icon="@drawable/baseline_category_on_personal_24"
+        android:title="@string/recipes" />
+
 </menu>

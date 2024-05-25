@@ -10,21 +10,15 @@
       android:id="@+id/nav_host_fragment"
       android:layout_width="match_parent"
       android:layout_height="match_parent"
-      app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintTop_toTopOf="parent"
-      app:navGraph="@navigation/nav_graph"
-      android:name="com.anshu.fooddeliver.Fragments.HomeFragment"
-      />
-
-
+      android:layout_above="@id/bottomBar" />
 
   <me.ibrahimsn.lib.NiceBottomBar
       android:id="@+id/bottomBar"
       android:layout_width="match_parent"
       android:layout_height="60dp"
       android:layout_alignParentBottom="true"
+      android:elevation="6dp"
+      app:itemFontFamily="@font/myfont"
       app:menu="@menu/btm_menu" />
-
 
 </RelativeLayout>
